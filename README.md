@@ -2,7 +2,7 @@
 
 ### Create the Visualforce Page
 
-1. In Setup, create a static resource named IonicContacts. Upload [this file]().
+1. In Setup, create a static resource named IonicContacts. Upload [this file](https://github.com/ccoenraets/salesforce-mobile-sdk-hybrid-remote/archive/master.zip).
 
 1. Create a Visualforce Page named IonicContacts defined as follows:
 
@@ -60,6 +60,7 @@
 
   Answer the prompts as follows (adjust the company id, organization name, and start page as needed):
   
+  ```
   Enter your application type (native, hybrid_remote, or hybrid_local): hybrid_remote
   Enter your application name: HybridRemoteDemo
   Enter the output directory for your app (defaults to the current directory): 
@@ -68,6 +69,7 @@
   Enter the start page for your app (only applicable for hybrid_remote apps): https://na24.visual.force.com/apex/IonicContacts
   Enter your Connected App ID (defaults to the sample app's ID): 
   Enter your Connected App Callback URI (defaults to the sample app's URI): 
+  ```
 
   > For a production application, you should create a Connected App in Salesforce and provide your own Connected App ID and Callback URI.
 
